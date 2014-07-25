@@ -1,8 +1,8 @@
-<h1>Welcome <%= @player%></h1>
+<h1>welcome <%= @player%></h1>
 
 <form action="/play" method="POST">
-	<button name="pick" value="Paper">Paper</button>
-	<button name="pick" value="Rock">Rock</button>
-	<button name="pick" value="Scissors">Scissors</button>
+	<button name="pick" value="Rock"><img src="/images/rock.gif" alt="Rock"></button>
+	<button name="pick" value="Paper"><img src="/images/paper.jpg" alt="Paper"></button>
+	<button name="pick" value="Scissors"><img src="/images/scissors.jpg" alt="Scissors"></button>
 	<input type="hidden" name="name" value=<%=@name%>>
 </form>
