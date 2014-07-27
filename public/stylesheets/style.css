@@ -3,7 +3,7 @@ head {
 }
 
 body {
-	padding: 150px;
+	padding:  150px;
 	background-color: white;
 	text-align: center;
 	font-family: sans-serif;
@@ -33,9 +33,12 @@ button {
 
 
 img {
-	transform: rotate(90deg);
 	max-width: 250px;
 	max-height: 250px; 
+}
+
+.r_p_s {
+	transform: rotate(90deg);
 }
 
 a {
