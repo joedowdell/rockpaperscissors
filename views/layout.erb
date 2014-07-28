@@ -3,20 +3,32 @@
 	<head>
 		<title>Rock Paper Scissors</title>
 		<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
-</head>
-	<body>
-			
-			<%= yield %>
+	</head>
 	
+	<body>
+			<div id="wrapper">
+				<div id="header">
+
+				</div>
+
+				<div id="content">
+
+						<%= yield %>
+
+				</div>
+
+				<div id="footer">
+					<a href="http://www.makersacademy.com/"><img src="/images/makers-logo.png" class"logo"></a>
+						<div>
+						rock_paper_scissor game built for your enjoyment at 
+							<a href="http://www.makersacademy.com" class="footer">Makers Academy, a highly selection 12 week course in London</a>.
+						</div>
+						<div>
+						This page uses Ruby, Sinatra, HTML, CSS.
+						</div>
+				</div>
+			</div>
 	</body>
-	<footer>
-		<a href="http://www.makersacademy.com/"><img src="/images/makers-logo.png" class"logo"></a>
-		<div>
-		rock_paper_scissor game built for your enjoyment at 
-		<a href="http://www.makersacademy.com" class="footer">Makers Academy, a highly selection 12 week course in London</a>.
-		</div>
-		<div>
-			This page uses Ruby, Sinatra, HTML, CSS.
-		</div>
-	</footer>
+			
+		
 </html>
