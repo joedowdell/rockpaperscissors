@@ -29,6 +29,10 @@ class RockPaperScissors < Sinatra::Base
   	erb :outcome
   end
 
+  get '/restart-game' do
+    erb :play
+  end
+
   def generate_computer
   	choice = ["Rock","Paper","Scissors"].sample
 
