@@ -1,6 +1,9 @@
 source 'http://rubygems.org'
 gem 'sinatra'
-gem 'newrelic_rpm'
+
+group :production do
+  gem 'newrelic_rpm'
+end
 
 group :development, :test do
 	gem 'rspec'

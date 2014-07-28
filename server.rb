@@ -4,7 +4,9 @@ require './lib/game'
 
 class RockPaperScissors < Sinatra::Base
 
-
+  configure :production do
+    require 'newrelic_rpm'
+  end
 
   get '/' do
     erb :index
