@@ -35,6 +35,10 @@ body {
 	font-size: 15px;
 }
 
+#form_buttons {
+	display: inline-block;
+}
+
 
 input {
 	text-align: center;
@@ -58,7 +62,9 @@ img {
 }
 
 .r_p_s {
+	float: left;
 	margin: auto;
 	transform: rotate(90deg);
-
+	width: 270px;
+	height: 270px;
 }
